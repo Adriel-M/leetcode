@@ -20,4 +20,3 @@ class Solution:
         except IndexError:
             pass
         return strs[0][:i]
-

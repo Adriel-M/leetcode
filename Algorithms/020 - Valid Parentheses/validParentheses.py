@@ -1,7 +1,7 @@
 class Solution:
     def isValid(self, s):
         stack = []
-        opening_map = {'(' : ')', '{': '}', '[':']'}
+        opening_map = {'(': ')', '{': '}', '[': ']'}
         closing_map = {')': '(', '}': '{', ']': '['}
         try:
             for letter in s:
@@ -13,4 +13,3 @@ class Solution:
         except IndexError:
             return False
         return len(stack) == 0
-

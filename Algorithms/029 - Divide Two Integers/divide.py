@@ -1,6 +1,7 @@
 class Solution:
     MIN_NUM = -(2 ** 31)
     MAX_NUM = (2 ** 31) - 1
+
     def divide(self, dividend, divisor):
         """
         :type dividend: int
@@ -41,4 +42,3 @@ class Solution:
                 return self.MAX_NUM
             return ret
         return min(ret, self.MAX_NUM)
-

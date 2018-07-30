@@ -14,12 +14,12 @@ class Solution:
         curr = head
         anchor = None
         while curr:
-          if anchor is None:
-            anchor = curr
-          else:
-            if curr.val == anchor.val:
-              anchor.next = curr.next
+            if anchor is None:
+                anchor = curr
             else:
-              anchor = curr
-          curr = curr.next
+                if curr.val == anchor.val:
+                    anchor.next = curr.next
+                else:
+                    anchor = curr
+            curr = curr.next
         return head

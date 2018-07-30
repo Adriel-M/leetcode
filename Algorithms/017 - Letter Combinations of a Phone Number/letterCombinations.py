@@ -27,6 +27,3 @@ class Solution:
                 ret.append(currString + letter)
         for letter in self.numLetterMap[digits[0]]:
             self.letterHelper(digits[1:], currString + letter, ret)
-
-
-

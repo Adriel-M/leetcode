@@ -28,4 +28,3 @@ class Solution:
             return [-1, -1]
         upper = self.binarySearch(nums, lower, len(nums) - 1, target, False)
         return [lower, upper]
-

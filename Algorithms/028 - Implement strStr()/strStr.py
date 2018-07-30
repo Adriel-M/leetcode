@@ -12,4 +12,3 @@ class Solution:
             return -1
         else:
             return len(split[0])
-

@@ -51,4 +51,3 @@ class Solution:
         :rtype: void Do not return anything, modify board in-place instead.
         """
         self.solve(board, 0, 0)
-

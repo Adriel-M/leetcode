@@ -26,4 +26,3 @@ class Solution:
             else:
                 if num_to_look_for in num_lookup:
                     return [j, num_lookup[num_to_look_for][0]]
-

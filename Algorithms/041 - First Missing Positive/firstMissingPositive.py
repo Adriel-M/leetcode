@@ -19,4 +19,3 @@ class Solution:
             if nums[j] == ret + 1:
                 ret = nums[j]
         return ret + 1
-

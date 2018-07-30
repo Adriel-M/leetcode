@@ -1,5 +1,6 @@
 from queue import PriorityQueue
 
+
 class PItem:
     def __init__(self, priority, item):
         self.priority = priority
@@ -7,6 +8,7 @@ class PItem:
 
     def __lt__(self, other):
         return self.priority < other.priority
+
 
 class Solution:
     def mergeKLists(self, lists):
@@ -28,5 +30,3 @@ class Solution:
             if best.next:
                 min_queue.put(PItem(best.next.val, best.next))
         return ret
-
-

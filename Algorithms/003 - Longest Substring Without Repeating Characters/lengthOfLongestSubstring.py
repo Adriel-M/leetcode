@@ -26,4 +26,3 @@ class Solution:
                     if len(curr_substring) > max_length:
                         max_length = len(curr_substring)
         return length
-

@@ -8,13 +8,13 @@ class Solution:
         i = 0
         j = len(nums) - 1
         if len(nums) == 0:
-          return 0
+            return 0
         if target > nums[j]:
-          return j + 1
+            return j + 1
         while i < j:
-          mid = (i + j) // 2
-          if target > nums[mid]:
-            i = mid + 1
-          else:
-            j = mid
+            mid = (i + j) // 2
+            if target > nums[mid]:
+                i = mid + 1
+            else:
+                j = mid
         return j

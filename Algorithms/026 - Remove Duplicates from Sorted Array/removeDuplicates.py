@@ -13,4 +13,3 @@ class Solution:
             else:
                 curr = nums[curr_index]
         return len(nums)
-

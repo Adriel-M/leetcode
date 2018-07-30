@@ -30,4 +30,3 @@ class Solution:
         if prev_value >= 10:
             curr.next = ListNode(prev_value // 10)
         return ret
-

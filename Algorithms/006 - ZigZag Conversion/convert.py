@@ -28,4 +28,3 @@ class Solution:
             for holder in placeholder:
                 ret += ''.join(holder)
             return ret
-

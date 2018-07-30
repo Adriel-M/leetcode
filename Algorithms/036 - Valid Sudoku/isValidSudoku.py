@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class Solution:
     def isValidArray(self, arr):
         elements = set()
@@ -23,7 +24,7 @@ class Solution:
 
         # validate cols
         for i in range(9):
-            if not self.isValidArray(game_board[:,i]):
+            if not self.isValidArray(game_board[:, i]):
                 return False
 
         # validate cells
@@ -33,4 +34,3 @@ class Solution:
                 if not self.isValidArray(game_board[i-1:i+2, j-1:j+2]):
                     return False
         return True
-

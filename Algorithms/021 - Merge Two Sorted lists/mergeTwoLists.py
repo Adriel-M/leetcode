@@ -26,7 +26,3 @@ class Solution:
             return ret[0]
         else:
             return None
-
-
-
-
