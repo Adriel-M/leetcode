@@ -1,3 +1,6 @@
+def guess(n):
+    return -1
+
 class Solution(object):
     def guessNumber(self, n):
         """
